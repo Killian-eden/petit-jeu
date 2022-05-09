@@ -1,0 +1,182 @@
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url(../img/lava.jpg);
+
+}
+.test1{
+    position: fixed;
+    z-index: 7;
+    top: 0;
+}
+#reset{
+    position: fixed;
+    top: 50px;
+    z-index: 7;
+}
+
+#perso{
+    width: 3%;
+    height: 10%;
+    position: absolute;
+    z-index: 7;
+}
+#stand{
+    width: 10%;
+    left: 850px;
+    position: absolute;
+}
+#presse{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+}
+#vendeusemei{
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 5000px;
+    position: relative;
+    z-index: 7;
+}
+#mei{
+    width: 23%;
+    position: absolute;
+    top: 46px;
+    left: 7%;
+    z-index: 1;
+}
+#stand1{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 516px;
+    position: absolute;
+    top: 5%;
+    left: 450px;
+}
+@font-face {
+    font-family: "Impact"; 	src: url('../img/impact.ttf');
+}
+#text{
+    margin: 0;
+    text-align: center;
+    font-size: 5em;
+    font-family: Impact;
+}
+.gold{
+    background-color: yellow;
+    position: absolute;
+    top: 3%;
+    left: 39%;
+    font-family: Impact;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.gold *{
+    float: left;
+    font-size: 2em;
+    margin: 0;
+}
+.fas{
+    margin-top: 3px;
+}
+.variablegold{
+    margin-left: 10px;
+}
+.article{
+    width: 20%;
+    position: absolute;
+}
+.article:nth-of-type(1){
+    left: 15%;
+    top: 17%;
+}
+.article:nth-of-type(2){
+    left: 53%;
+    top: 17%;
+}
+.article:nth-of-type(3){
+    top: 50%;
+    left: 36%;
+}
+.article:nth-of-type(4){
+    top: 50%;
+    left: 70%;
+}
+.article img{
+    width: 200px;
+    height: 200px;
+}
+.article p{
+    margin: 0;
+    text-align: center;
+    font-family: Impact;
+    font-size: 2em;
+}
+.validation{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 35%;
+    left: 21.3%;
+    font-size: 3em;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: white;
+    font-family: Impact;
+    border-radius: 8px;
+    border: 5px solid black;
+    width: 50%;
+    text-align: center;
+}
+.validation p{
+    margin: 0;
+}
+.validation button{
+    border-radius: 5px;
+    border: 5px solid black;
+    width: 40%;
+    background-color: whitesmoke;
+}
+.btnspace{
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+#sortie{
+    width: 5%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+#main2{
+    display: none;
+}
+#enemy1{
+    width: 3%;
+    position: absolute;
+    z-index: 7;
+}
+.ec{
+    display: none;
+}
+.persozone{
+    position: relative;
+    top: 600px;
+    left: 1300px;
+    width: 20%;
+}
+.persocombats{
+    position: relative;
+    top: 500px;
+    left: 1050px;
+    width: 5%;
+}
